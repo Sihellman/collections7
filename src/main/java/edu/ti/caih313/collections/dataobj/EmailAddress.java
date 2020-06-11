@@ -44,7 +44,7 @@ public class EmailAddress {
         return ((emailAddress != null) && (emailAddress.contains("@")) &&
                 ((emailAddress.substring(emailAddress.length()-4).equals(".edu"))
                         || (emailAddress.substring(emailAddress.length()-4)).equals(".com")));
-        //return (emailAddress != null) && emailAddress.contains("@");
+
 
     }
 }
